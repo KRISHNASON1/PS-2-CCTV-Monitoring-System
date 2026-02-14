@@ -5,7 +5,7 @@ Accumulates a cumulative risk score per tracked person based on
 detected behaviors (loitering, fast movement, zone breach). Triggers an alert
 when the score exceeds a configurable threshold. No external
 libraries required.
-"""
+""" 
 
 from typing import List, Dict
 

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+output_video.mp4
+output.mp4
+temp_input.mp4
