@@ -1,0 +1,35 @@
+# ──────────────────────────────────────────────
+#  AI-Powered Behavioral Surveillance
+#  & Risk Assessment System — Dependencies
+# ──────────────────────────────────────────────
+
+# Core computer-vision library
+opencv-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Deep-learning inference (choose one backend)
+ultralytics>=8.0.0          # YOLOv8 detection & pose estimation
+# torch>=2.0.0              # PyTorch (uncomment if using custom models)
+# onnxruntime>=1.15.0       # ONNX Runtime (lightweight alternative)
+
+# Tracking algorithms
+filterpy>=1.4.5             # Kalman filter for SORT / DeepSORT
+scipy>=1.10.0               # Hungarian algorithm (linear_sum_assignment)
+lap>=0.4.0                  # Fast linear assignment (optional speedup)
+
+# Configuration & serialization
+pyyaml>=6.0                 # YAML config file parsing
+
+# Logging & monitoring (optional)
+# loguru>=0.7.0             # Enhanced logging (uncomment if preferred)
+
+# Notifications / alerting (optional)
+# requests>=2.31.0          # HTTP-based alert dispatch
+
+# Streamlit dashboard & dependencies
+streamlit>=1.30.0
+pandas>=2.0.0
+Pillow>=10.0.0
+streamlit-drawable-canvas>=0.9.0
